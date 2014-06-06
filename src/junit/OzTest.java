@@ -12,6 +12,7 @@ public class OzTest {
 	public void testCharToBig() {
 		char X = new Oz().charToBig('a');
 		assertEquals('A', X);
+		assertEquals("不相等", 'A','a');//添加错误提示
 	}
 
 }
